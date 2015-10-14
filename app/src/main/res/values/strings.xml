@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExamenCajero</string>
+    <string name="Consultar">Consultar Saldo</string>
+    <string name="Depo">Depositar</string>
+    <string name="Retirar">Retirar</string>
+    <string name="Terminar">Terminar</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_retirar_l">RetirarL</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_consultar_l">Consultar</string>
+    <string name="title_activity_depositar_l">Depositar</string>
+    <string name="title_activity_secundarios">Secundarios</string>
+
+    <!--depositar-->
+
+</resources>

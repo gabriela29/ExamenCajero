@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ver"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Deposito "
+        android:id="@+id/textView3"
+        android:layout_marginLeft="110dp"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#774c18"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:textSize="18dp"
+            android:text="Cuenta de destino:"
+            android:layout_marginLeft="48dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"/>
+
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:background="#ffffff"
+                android:layout_marginTop="5dp"
+
+                android:layout_marginLeft="50dp"
+                android:id="@+id/txtCtaDestino" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#772042"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:textSize="18dp"
+            android:text="Monto:"
+            android:layout_marginLeft="48dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="50dp"
+            android:id="@+id/txtMonto" />
+
+
+
+    </LinearLayout>
+<Button
+    android:layout_width="340dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/mybutton"
+    android:text="Depositar"
+    android:textSize="20dp"
+    android:id="@+id/btnEnviar"
+    android:onClick="transferir"/>
+
+</LinearLayout>
